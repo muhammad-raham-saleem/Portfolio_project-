@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+        <a href="./project">
+            <img src="./portfoilio project/person.png" width="50px">
+        </a>
+        </div>
+        
+        <nav class ="button">
+            <ul>
+            <a href="https://www.linkedin.com/in/muhammad-raham-saleem-37ab31289/">
+                <img src="./portfoilio project/linkedin-icon-2.svg" width="30px"></a>
+            <a href="https://github.com/muhammad-raham-saleem">
+                <img src="./portfoilio project/github-icon-1.svg" width="30px"></a>
+            <a href="mailto:x123@gmail.com?subject=Hello%20There&body=I%20would%20like%20to%20inquire%20about%20your%20services." class="email-link"><img src="./portfoilio project/gmail.png" width="30px"></a>      
+            </ul>
+        </nav>
+        
+       
+    </div>
+   
+    <div class="hero">
+        <div class="intro-text">
+        
+        <h1>Hi!<br> Muhmammad Raham Saleem</h1>
+        <h3>I am a FullStack WebDeveloper<br></h3>
+    </div>
+    <img class="intro-img" src="./d6f5a90f-db95-4193-b2e6-96aca0470ea1.jpg" width="auto" height="530.67px">
+    </div>
+    <hr>
+    <div class="skill-title">
+        <h3>Skills</h3>
+    <div class="skills">
+    
+    
+        <div class="card-1">
+            <img src="./portfoilio project/c-1.svg" width="300px" height="200px">
+        </div>
+        <div class="card-1">
+            <img src="./portfoilio project/java-4.svg" width="300px" height="200px" >
+            
+        </div>
+        <div class="card-1">
+            <img src="./portfoilio project/css-3.svg" width="300px" height="200px">
+        </div>
+        <div class="card-1">
+            <img src="./portfoilio project/html-1.svg" width="300px" height="200px">
+        </div>
+        
+              
+              
+    </div>
+    <div class="skills">
+    
+    
+        <div class="card-1">
+            <img src="./portfoilio project/python-4.svg" width="300px" height="200px">
+        </div>
+        <div class="card-1">
+            <img src="./portfoilio project/logo-javascript.svg" width="300px" height="200px" >
+            
+        </div>
+        <div class="card-1">
+            <img src="./portfoilio project/figma-icon.svg" width="300px" height="200px">
+        </div>
+        <div class="card-1">
+            <img src="./portfoilio project/bootstrap-5-1.svg" width="300px" height="200px">
+        </div>
+        
+              
+              
+    </div>
+    <hr>
+<div class ="connect-sect">
+        <h3>Lets Connect</h3>
+        <div class="connect-text">
+            <h4>H</h4>
+        </div>
+        <div class="connect">
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type ="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <input type ="text" id="message" name="message"><br>
+            <input type="submit">
+        </form>
+    </div>
+</div>
+
+<br>
+<div class="footer">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+</div>
+</body>
+</html>
